@@ -1,0 +1,65 @@
+
+git branch -a :
+
+--you will see the list of remote branches
+
+git remote show origin
+
+--It will display all branches known by your local repository. If the branch you want to use is not in the list, run the command
+
+git remote update
+
+--which updates the entire list of remote branches tracked by your local repository and then run
+
+git fetch
+
+--fetch all repository
+
+git stash push --include-untracked
+
+--stash old files
+
+git stash drop
+
+--drop all stash files
+
+Git New project dir
+
+git init
+
+git add .
+
+git remote add origin git@github.com:user_name/Prepo_name.git
+
+git commit -m "message"
+
+git push -u origin branch_name
+
+git pull origin branch_name
+
+
+
+
+Git new repos ssh
+
+echo "# repo_name" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:user_name/repo_name.git
+git push -u origin main
+ 
+ 
+ git new repo http
+ 
+ echo "# repo_name" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/user_name/repo_name.git
+git push -u origin main
+
+
+               
